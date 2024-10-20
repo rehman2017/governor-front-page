@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    background-color:#014b6d ;
+    height: 80px;
+}
+
+nav img{
+    position: absolute;
+    width: 119px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(./Capture.JPG);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+   
+}
+.main-div{
+    width: 108%;
+    height: auto;
+}
+
+.navbar{
+    padding: 30px;
+    
+}
+
+.navbar .logo{
+    width: 10px;
+    float: left;
+    margin: 9px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+/* .navbar ul{
+    background-color: blue;
+} */
+ul li{
+    list-style: none;
+    float: left;
+    font-size: 26px;
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 26px;
+  
+  
+
+}
+ul li a{
+    text-decoration:none; 
+    margin-left: 43px;
+    color:#0099ad;
+    
+ 
+
+}
+ul{
+    margin-top: 10px;
+    margin-left: 9%;
+    border: 0px solid;
+    background: color #0099ad;
+    font-size: 24px;
+    color:#06adc4;
+}
+ul li a:hover{
+    color: rgb(30, 30, 85);
+    cursor: pointer;
+
+}
+.text{
+    position: absolute;
+    z-index: -1;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    color:#014b6d ;
+}
+ .text h2{
+    font-size: 50px;
+}  
+.text p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    color:#014b6d ;
+}
+
+
+span{
+    color: #06adc4;
+}
+.text h2 p{
+    margin-top: 1px;
+}
+
+
+.Applybutton1:hover{
+    background-color: rgb(30, 30, 85);
+    
+
+}
+.download-image{
+    /* position: absolute;
+    z-index: -1;  */
+    width: 900px;
+    margin-right: -16%;
+    float: right;
+    margin-left: 70%;
+    margin-top: -0px;
+
+}  
+.Applybutton1{
+    background-color:#014b6d ;
+    font-size: 20px;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 7px;
+
+}
+.Applybutton{
+    background-color:#014b6d ;
+    font-size: 16px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    
+
+}
+
+.Applybutton:hover{
+    background-color:#4111c4 ;
+}
